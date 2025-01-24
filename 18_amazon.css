@@ -1,0 +1,206 @@
+/* Universal reset to remove default margin and set default font */
+* {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Added 'sans-serif' as fallback */
+    box-sizing: border-box; /* Fixes padding/border calculation issues */
+}
+
+/* Navbar styling */
+.navbar {
+    height: 60px; /* Fixed height for the navbar */
+    background-color: #0f1111; /* Amazon-like dark background */
+    color: white; /* Text color */
+    display: flex; /* Align children in a row */
+    align-items: center; /* Vertically center items */
+    justify-content: space-evenly; /* Equal spacing between items */
+}
+
+/* Logo container for size consistency */
+.nav-logo {
+    height: 50px; /* Ensures consistent height */
+    width: 100px; /* Fixed width for uniform appearance */
+}
+
+/* Placeholder for Amazon logo image */
+.logo {
+    background-image: url("amazon_logo.png"); /* Adds logo */
+    background-size: cover; /* Ensures image scales correctly */
+    height: 50px; /* Matches parent container */
+    width: 90%; /* Leaves a slight padding within the logo container */
+}
+
+/* Adding a hover effect to elements with the 'border' class */
+.border {
+    border: 1.5px solid transparent; /* Default invisible border */
+}
+
+.border:hover {
+    border: 1.5px solid white; /* White border on hover */
+}
+
+/* Address section styling */
+.add_icon {
+    display: flex; /* Aligns icon and text horizontally */
+}
+
+.add_first {
+    color: #cccccc; /* Light gray for secondary text */
+    margin-left: 15px; /* Space before the first address text */
+    font-size: 0.75rem; /* Smaller font for "Deliver to" */
+}
+
+.add_second {
+    font-size: 1rem; /* Normal font size for "India" */
+    margin-left: 3px; /* Minimal spacing between the icon and text */
+}
+
+/* Search bar container */
+.nav_search {
+    justify-content: space-evenly; /* Equal spacing within the search bar */
+    width: 620px; /* Fixed width for a balanced layout */
+    height: 40px; /* Consistent height */
+    display: flex; /* Aligns input, dropdown, and icon in a row */
+    background-color: pink; /* Temporary background color for visibility */
+    border-radius: 4px; /* Smooth corners */
+    color: #0f1111; /* Text color */
+}
+
+.nav_search:hover{
+    border: 2px solid orange;
+}
+/* Dropdown for search category selection */
+.search-select {
+    background-color: #E6E6E6; /* Light gray background */
+    width: 51.6px; /* Fixed width for dropdown */
+    text-align: center; /* Center text horizontally */
+    border-top-left-radius: 4px; /* Smooth corners on top-left */
+    border-bottom-left-radius: 4px; /* Smooth corners on bottom-left */
+    border: none; /* Removes default border */
+}
+
+/* Input field for search queries */
+.search-input {
+    width: 100%; /* Takes the remaining width of the search bar */
+    font-size: 1rem; /* Comfortable font size */
+    border: none; /* Removes default border */
+}
+
+/* Search icon container */
+.search-icon {
+    width: 45px; /* Fixed width for uniform size */
+    display: flex; /* Centers the icon horizontally and vertically */
+    justify-content: center; /* Centers icon horizontally */
+    align-items: center; /* Centers icon vertically */
+    font-size: 1.2rem; /* Slightly larger icon for visibility */
+    background-color: #febd68; /* Amazon-like yellow background */
+    color: #0f1111; /* Icon color */
+    border-top-right-radius: 4px; /* Smooth corners on top-right */
+    border-bottom-right-radius: 4px; /* Smooth corners on bottom-right */
+}
+
+
+/* BOX 4 */
+
+span {
+   font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;  /* For making color dark */
+}
+
+/* BOX 6 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* PANEL */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center; /* align vertically*/
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* HERO section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem; /*14px approx*/
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+
+/* SHOPPING SECTION */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;  /*approx 16px*/
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185 ;
+}

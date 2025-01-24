@@ -1,0 +1,14 @@
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /*For circle*/
+    border: 20px solid green;
+        border-top:20px solid aquamarine;
+    animation: loader 2s ease-in 2s infinite;
+}
+
+@keyframes loader {
+    from{rotate: 0deg;}
+    to {rotate: 360deg;}
+    
+}

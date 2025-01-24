@@ -1,0 +1,28 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none; /*Remove underline from anchor*/
+    color: black;
+    
+}
+li{
+    list-style-type: none; /*remove point*/
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; /*To align coloumn or from top to bottom*/
+    }
+
+    .inner{
+        height: 100px;
+        width: 100px;
+        background-color: darkorchid;
+        }

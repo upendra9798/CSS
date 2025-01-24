@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    background-color: yellow;
+    width: 100px;
+    border-width: 2px;
+    border-style: solid;
+
+}
+h1{
+    height: 200px;
+    background-color: palevioletred;
+    width: 300px;
+    /* border-width: 10px;
+    border-style: dashed ;
+    border-color: red; */
+    border: 2px dashed red; /*border shorthand*/
+    /* text-align: center; */
+    /* border-radius: 15px; to make corner round */
+    /* border-radius: 50%; */
+    /* padding-left: 25px; Space btw content and border */
+    /* padding: 50px; in all direction */
+    padding: 2px  3px 4px 5px; /*Top right bottom left*/
+    margin-bottom: 50px; /*area btw two blocks*/
+}

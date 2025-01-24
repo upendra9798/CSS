@@ -1,0 +1,39 @@
+ /* ELEMENT SELECTOR */
+ h1{                    
+    color : blue;
+ }
+
+ /* RG-YELLOW, GB-SKYBLUE, RB-PINK */
+
+ button{
+   color:brown;
+   background-color:grey; 
+ }
+
+ body{
+   background-color: rgb(255,250,0);
+ }
+
+ h2{
+   /* color: #00ff00;  Green */
+   color:#BEB7A4;
+   /* color: #ffff00; */
+ }
+
+ /* UNIVERSAL SELECTOR */
+ /* *{
+   color: blue;
+ } */             
+
+ /* ID SELECTOR */
+ #headingOne{
+   color:aqua;
+ }
+ #headingTwo{
+   color:blueviolet;
+ }
+
+/* CLASS SELECTOR */
+ .myclass{
+   color: chocolate;
+ }

@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url(08_cat_pic.jpg);
+    /* background-size: contain; /*Not change size of image and fix in space with repetition*/
+    /* background-repeat: no-repeat; Stop repetition */ 
+    background-size: cover;
+
+    position: fixed;
+    right: 0px;
+    top: 250px;
+}

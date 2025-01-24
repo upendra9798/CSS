@@ -1,0 +1,36 @@
+p{
+    text-align : right;
+}
+h1{
+    text-align : center;
+    text-decoration : red wavy underline;
+    /* mvn text decoration */
+}
+#h1{
+    font-weight : normal;
+}
+
+#one{
+    font-family: arial;
+    text-transform: lowercase;
+
+}
+
+#two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+}
+
+#three{
+    font-size: 25px;
+    line-height: 40px; 
+    text-transform: capitalize; 
+    /* ALL WORD FIRST LETTER IS CAPITAL */
+
+}
+#four{
+    font-size: 10px;
+    line-height: 2px; 
+
+}

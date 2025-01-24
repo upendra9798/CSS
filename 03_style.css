@@ -1,0 +1,14 @@
+/* Universal selector(whole document) */
+*{
+    font-family: "Times New Roman";
+   }
+h1{
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+/* if we apply on outer then it will automatic apply on inner */
+#inner{
+    font-size: 10px;;
+}

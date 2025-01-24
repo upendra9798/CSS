@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome stylesheet for using icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+    <!-- External stylesheet for custom styling -->
+    <link rel="stylesheet" href="18_amazon.css">
+</head>
+<body>
+    <!-- Header section of the page -->
+    <header>
+    <!-- BOX 1 -->
+        <!-- Navigation bar container (contains- Logo, Adress, Search Bar)-->
+        <div class="navbar">
+            <!-- Logo section inside the navigation bar -->
+             <!-- Contains 2 classes nav-logo and border(for setting conditions on hover) -->
+            <div class="nav-logo border">    
+                <div class="logo"></div>
+            </div>
+
+    <!-- BOX 2 -->
+            <!-- Address section with "Deliver to" text and location -->
+            <div class="nav_adress border">
+                <!-- First line of the address section -->
+                <p class="add_first"> Deliver to</p>
+                <!-- Icon and address details -->
+                <div class="add_icon">
+                    <!-- Font Awesome location icon -->
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add_second"> India</p>
+                </div>
+            </div>
+
+
+    <!-- BOX 3 -->
+            <!-- Search bar section -->
+            <div class="nav_search">
+                <!-- Dropdown for search categories -->
+                <select class="search-select">
+                    <option> All</option>
+                </select>
+                <!-- Input field for search queries -->
+                <input placeholder="Search Amazon.in" class="search-input">
+                <!-- Search icon next to the input -->
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+
+        <!-- BOX 4 -->
+            <div class="nav-sign-in border">
+                <!-- These classes will also used in box 5 -->
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Accounts and lists</p>  
+            </div>
+
+        <!-- BOX 5 -->
+            <div class="nav-return border">
+                <!-- These classes will also used in box 5 -->
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>  
+            </div>
+
+        <!-- BOX 6 -->
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+
+
+        <div class="panel">
+            <div class="panell-All">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customor Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">
+            Shop on amazon for thousands of deals and rewards and for fast delivery
+            <a>Click here to go to amazon.in</a>
+        </div>
+    </div>
+
+    <!-- SHOPPING SECTION -->
+    <div class="shop-section">
+        <!-- class bpx1,box2,... is for our convenient (no use) -->
+        <div class="box1 box">
+             <div class="box-content">
+                <h2>Clothes</h2>
+             <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+             <!-- We have to always write '' in "" or "" in '' never "" in "" -->
+             <p>See more</p>
+             </div>
+        </div>
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+             <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+             <p>See more</p>
+             </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Furniture</h2>
+             <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+             <p>See more</p>
+             </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Electronics</h2>
+             <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+             <p>See more</p>
+             </div>
+        </div>
+        <div class="box5 box">
+             <div class="box-content">
+                <h2>Beauty pics</h2>
+             <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+             <p>See more</p>
+             </div>
+        </div>
+        <div class="box6 box">
+            <div class="box-content">
+                <h2>Pet care</h2>
+             <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+             <p>See more</p>
+             </div>
+        </div>
+        <div class="box7 box">
+            <div class="box-content">
+                <h2>Toys</h2>
+             <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+             <p>See more</p>
+             </div>
+        </div>
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Fashion</h2>
+             <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+             <p>See more</p>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

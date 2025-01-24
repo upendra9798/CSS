@@ -1,0 +1,40 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black ;
+    display: inline-block;
+}
+
+#box1{
+    position: static; /*Remain fix not move, No top bottom property works(Default)*/ 
+    background-image: url("08_cat_pic.jpg");
+    background-size: cover; /*Used to fit image in space*/
+}
+
+#box2{
+    position: relative; /*relative to itself*/
+    top: 20px;
+    right:20px;
+    z-index: -1; /*It will appear under box 1*/
+}
+
+#box3{
+    position: absolute; /*relative to cLosest positioned ancestor (Here body tag)*/
+    top: 600px;
+}
+#box4{
+    position: fixed; /*Relative to browser and  position is fixed*/ 
+    /* LEFT: 20px; */
+    /* bottom: 0PX;
+    width: 100vw; */
+    top: 0px; 
+}
+#box5{
+    position: sticky;  /*When it will show then it becomes fixed*/
+    top: 0px;
+}
+/* body{
+    background-image: url("archi_photo.jpg");
+    background-size: cover;
+} */

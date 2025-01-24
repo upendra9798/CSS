@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* transition-property: all; */
+    /* transition-duration: 2s; Time taken to aplly transition */
+    /* transition-timing-function: steps(5); */ /*Steps taken to apply transition*/
+    /* transition-timing-function: ease-in;
+    transition-delay: 1s; */   /*Time after which the transition is applied*/
+    transition: all 2s ease-in 1s;  /* Transition shorthand- property name| duration | timing-function | delay*/
+}
+/* hover- Jab element par cursor laya jata h */
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+
+/* Active state - Jab element ko click kiya jata h ya hold  */
+div:active{
+   background-color: pink;
+   
+}

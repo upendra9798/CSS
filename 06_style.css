@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+
+button{
+    background-color: antiquewhite;
+    display: block;
+}
+#a{
+    background-color: blue;
+    /* display: none;  removes element  with no space left */
+    /* visibility: hidden; removes and leaves space */
+
+}
+#b{
+    /* background-color: red; */
+    background-color: rgba(255, 0, 0, 0.9);  /*a-Alpha value -> defines intensity of colour 0-1*/
+    display: inline-block;      
+    /* provides margin above and below and enables editing */
+}
+#c{
+    background-color: green;
+}

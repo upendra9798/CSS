@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 700px;
+    height: 300px;
+    display: flex; /*Default row*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    justify-content: flex-end;   /*Similarly for row*/
+    justify-content: center;  /*Aligns the child elements horizontally in the center of the container (main axis).*/
+
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* flex-wrap: wrap; Allow content to go in multiple lines */
+
+     /*align-items: center;
+Aligns the child elements vertically in the center of the container (cross axis).*/
+    align-items: flex-start; /*Space btw items remains*/
+   
+    /* align-content: flex-end; */ /*Space btw items not remains*/
+    /* align-content: flex-start; */
+}
+#box2{
+    background-color: red;
+    height: 200px;
+    /* align-self: flex-end; Highest preference */
+}
+#box3{
+    background-color: green;
+    flex-grow: 2; /*Grow property will cover all space and 2 means box3 will grow 2 times other box*/
+    /* flex-shrink: 0.5; */
+
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: pink;
+    /* align-self: flex-end; */
+}
+#box1{
+    background-color: aqua;
+}
